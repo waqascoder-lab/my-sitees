@@ -1,0 +1,36 @@
+nav{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.active{
+    color: blue;
+}
+nav ul li :hover{
+    color: blue;
+}
+#dvv ul li a{
+    display: block;
+    line-height: 1cm;
+}
+#dvv ul li a:hover{
+    color: white;
+}
+#dvv ul{
+    margin-top: 1cm;
+    font-weight: 500;
+    color:rgb(148, 144, 144);
+}
+#sjd{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+::-webkit-scrollbar {
+    width: 12px; /* Horizontal scrollbar ki width */
+    height: 12px; /* Vertical scrollbar ki height */
+}
+
+/* Scrollbar ke track ka background color */
+
+
+/* Scrollbar ka thumb */
+::-webkit-scrollbar-thumb {
+    background:red; /* Aapka desired thumb color */
+}
